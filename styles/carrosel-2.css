@@ -1,0 +1,107 @@
+.carrossel__titulo2{
+color: var(--laranja);
+    text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+background-color: var(--branco);
+padding: 1em 0 0.5em 0;
+}
+.card2{
+    background-color: var(--branco);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1em;
+}
+.card__descriçao2{
+display: flex;
+padding: 1em;
+}
+
+.descriçao__titulo2{
+    color: var(--laranja);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 1em 0;
+}
+.nome__autora{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--azul); 
+}
+.descriçao__texto2{
+    font-size: 14px;
+    padding: 1em 1em 1em 0;
+}
+
+.card__botoes2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+}
+.botoes2{
+    display: flex;
+    margin: 1em ;
+
+}
+.botoes__item2{
+    padding: 0 0.5em;
+}
+.botoes__ancora2{
+padding: 1em 2em;
+background-color: var(--laranja);
+color: var(--branco);
+}
+.carrossel-2__1728{
+    display: block;
+}   
+
+@media screen and (min-width:1024px) {
+    .carrossel__titulo{
+       font: size 26px;
+       padding:2em 0 1em 0;
+    }
+
+
+.carrossel__titulo2{
+    font: size 26px;
+    padding: 2em 0 1em 0;}
+
+    .card2{
+        width: 40%;
+        margin: 2em auto;
+    }
+    .carrossel-2__1728{
+        display: block;
+    }    
+}
+
+@media screen and (min-width:1728px) {
+    .carrossel__titulo2{
+        font-size: 32px;
+        
+    }
+    .carrossel-2__1728{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin:40px -7vw 87px 6vw;
+    }
+
+    .estrelinhas{
+        width: 91px;
+        height: 15px;      
+    }
+
+
+    .descriçao__titulo2{
+        font-size: 32px;
+        
+    }
+
+
+}
